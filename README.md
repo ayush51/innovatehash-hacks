@@ -1,6 +1,3 @@
-# innovatehash-hacks
-# We plan to create a website through which immediate help to patients can be provided. We ll try to create something that would provide the data of the hospital whose ambulance would reach to the patient in the shortest time possible.
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,6 +37,17 @@ li a:hover {
   background-color: #ff3399;
   color: white;
 }
+.tales {
+  width: 30%;
+}
+.carousel-inner{
+  width:30%;
+  ;
+}
+.caraosel-caption{
+  position: absolute;
+    top: 0%;
+    bottom: auto;
 </style>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -77,6 +85,45 @@ li a:hover {
   
    </div>
    </div>
+   <br>
+   <div class="container">
+  <h2 style="text-align: center;">Previous Patients</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://www.runscope.com/static/img/public/customer-portrait-human-api.png" alt="Patient1" style="background-size: contain" class="tales">
+        <div class="carousel-caption"><h3>Patient1</h3><p style="text-align: top;color: black">LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum</p></div>
+      </div>
+
+      <div class="item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSdxT9RCFVJhPjBqrYAgLR4lvYB6MJR1k0cJOOJxpGSUj-9RqC" alt="Patient2" style="background-size: contain" class="tales"><div class="carousel-caption"><h3>Patient2</h3><p style="text-align: top;color: black">LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum</p></div>
+      </div>
+    
+      <div class="item">
+        <img src="https://graduates.westpacgroup.com.au/sites/default/files/human_resources.png" alt="Patient3" style="background-size: contain" class="tales"><div class="carousel-caption"><h3>Patient3</h3><p style="text-align: top;color: black">LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum</p></div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
 </body>
 </html>
-  
+
