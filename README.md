@@ -26,7 +26,7 @@ li a:hover {
 }
 .boxed1 {
   border: 1px ;
-  height: 400px;
+  height: 370px;
   width: 300px;
   background-color: #0099ff;
   align-self: right;
@@ -67,7 +67,10 @@ li a:hover {
   </div>
  
 
-   <div align="right" style="margin:40px">
+   <div align="right" style="margin:2px">
+     <p align="center" style="margin-bottom: 0px; padding: 15px 0px;"><a href="tel: 8882978888"> <button class="call-btn"><i class="glyphicon glyphicon-earphone"></i> +91-9560287707</button> </a>
+                                  <br><i style="font-size:12px;margin-top:2px;">** For Extreme medical emergency, Call <b>102</b></i>
+              </p> 
 
 <div class="boxed1">
 <div style="margin:20px">
@@ -81,7 +84,7 @@ li a:hover {
   
 <input type="number" name="ID" placeholder=" Contact Number" style=" font-size: 15px;text-align: left;width: 100%;height: 40px;" required><br> <br>
 
-  <a href="" class="button">Look for an Ambulance</a> </form>
+  <a href="ambulance.htm" class="button">Look for an Ambulance</a> </form>
   
    </div>
    </div>
