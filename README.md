@@ -1,3 +1,4 @@
+#MAIN PAGE 
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,6 +31,8 @@ li a:hover {
   width: 300px;
   background-color: #0099ff;
   align-self: right;
+    margin-right:60px;
+    
 }
 .button {
   font: bold 18px Arial;
@@ -84,7 +87,7 @@ li a:hover {
   
 <input type="number" name="ID" placeholder=" Contact Number" style=" font-size: 15px;text-align: left;width: 100%;height: 40px;" required><br> <br>
 
-  <a href="ambulance.htm" class="button">Look for an Ambulance</a> </form>
+  <a href="ui.html" class="button">Look for an Ambulance</a> </form>
   
    </div>
    </div>
@@ -130,3 +133,4 @@ li a:hover {
 </body>
 </html>
 
+#2ND PAGE (JAVASCRIPT USED TO FIND MINIMUM TIME)
